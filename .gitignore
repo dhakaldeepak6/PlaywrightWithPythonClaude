@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+
+# Virtual environment
+venv/
+.venv/
+
+# Credentials — never commit
+.env
+.auth_cache/
+
+# Playwright output
+test-results/
+playwright-report/
+
+# Reports
+reports/
+allure-results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
